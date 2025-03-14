@@ -79,6 +79,32 @@ main section{
     border-radius: 12px;
     box-shadow: 1px 1px 5px rgba(128, 128, 128, 0.445);
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .hero-section, .reverse, .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-content, .content-section {
+        max-width: 100%;
+    }
+
+    .cta-btn, .hero-btn, .site-button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .nav-footer-1, .nav-footer-2 {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
 .reverse{
     display: flex;
     flex-direction: row-reverse;
@@ -140,7 +166,7 @@ main section{
 
     width: 150px;
     height: 25px;
-    filter: invert(90%) brightness(150%) saturate(0%);
+    filter:brightness(0) invert(1);
     color: #fff;
     margin-top: 70px;
     margin-bottom: 10px;
