@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Frontend Mentor - Huddle landing page with alternating feature blocks
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
@@ -90,3 +91,6 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+=======
+# huddle-landling-pages-project
+>>>>>>> b6d66179eec4d4b002038008d5079d1f6b7731f9
